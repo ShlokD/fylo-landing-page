@@ -16,7 +16,7 @@ self.addEventListener('install', ev => {
         '/images/bg-curvy-desktop.svg',
         '/images/bg-curvy-mobile.svg',
         '/images/bg-quotes.png',
-        'images/icon-access-anywhere.svg',
+        '/images/icon-access-anywhere.svg',
         '/images/icon-any-file.svg',
         '/images/icon-arrow.svg',
         '/images/icon-collaboration.svg',

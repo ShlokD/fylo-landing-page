@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.js"],"names":["navigator","serviceWorker","register","then","catch"],"mappings":";AAAG,kBAAmBA,WACpBA,UAAUC,cAAcC,SAAS,kFAAWC,KAAK,cAChDC,MAAM","file":"app.08886724.js","sourceRoot":"..","sourcesContent":["if('serviceWorker' in navigator) {\r\n  navigator.serviceWorker.register('./sw.js').then(() => {})\r\n  .catch(() => {});\r\n}"]}
