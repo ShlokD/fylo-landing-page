@@ -55,7 +55,7 @@ button {
 
 .testimonials > .testimonial-card:first-child::before {
   content: '';
-  background-image: url("images/bg-quotes.png");
+  background-image: url("../images/bg-quotes.png");
   display: inline-block;
   height: 22px;
   width: 18px;
