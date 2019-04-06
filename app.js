@@ -1,5 +1,5 @@
 if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js', { scope: 'https://shlokd.github.io/fylo-landing-page/'})
+  navigator.serviceWorker.register('./sw.js')
   .then(() => {})
   .catch(() => {});
 }
