@@ -1,6 +1,6 @@
-@import "flexbox.css";
-@import "spacing.css";
-@import "typography.css";
+@import "./flexbox.css";
+@import "./spacing.css";
+@import "./typography.css";
 
 :root {
   font-size: 14px;
