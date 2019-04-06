@@ -1,0 +1,63 @@
+.ma0 {
+  margin: 0
+}
+
+
+.mv4 {
+  margin-bottom: 2rem;
+}
+
+.mt5 {
+  margin-top: 2rem;
+}
+
+.pa0 {
+  padding: 0
+}
+
+.mh4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.ph4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ph5 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.ph6 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+
+.pv4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.pv5 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pv6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pt4 {
+  padding-top: 2rem;
+}
+
+.border-radius-6 {
+  border-radius: 4rem;
+}
+
+.w-70 {
+  width: 70%;
+}

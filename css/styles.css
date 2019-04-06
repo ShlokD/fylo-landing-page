@@ -1,0 +1,99 @@
+@import "flexbox.css";
+@import "spacing.css";
+@import "typography.css";
+
+:root {
+  font-size: 14px;
+  --main-bg: hsl(218, 28%, 13%);
+  --testimonial-bg: hsl(219, 30%, 18%);
+  --footer-bg: hsl(216, 53%, 9%);
+  --neutral: hsl(0, 0%, 100%);
+}
+
+* {
+  background-color: var(--main-bg);
+  color: var(--neutral);
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+.hero {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+
+  background-image: url('/images/bg-curvy-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-img,.productivity-img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background: none;
+
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-weight: bold;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  font-size: 1.25rem;
+}
+
+
+
+.testimonials > .testimonial-card:first-child::before {
+  content: '';
+  background-image: url("/images/bg-quotes.png");
+  display: inline-block;
+  height: 22px;
+  width: 18px;
+  background-size: contain;
+  background-repeat: no-repeat
+}
+
+.testimonial-profile > img {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-title {
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.testimonial-card {
+  background: var(--testimonial-bg);
+}
+
+.testimonial-card * {
+  background: var(--testimonial-bg)
+}
+
+#email-input {
+  background-color: var(--neutral);
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  font-size: 1.25rem;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact {
+  background-color: var(--footer-bg);
+}
