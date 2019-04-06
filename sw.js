@@ -1,10 +1,10 @@
 const version = `1.0.0`;
 const repository = `https://shlokd.github.io/fylo-landing-page`;
+
 self.addEventListener(`install`, ev => {
   ev.waitUntil(
     caches.open(`fylo-${version}`).then(cache => {
       return cache.addAll([
-        `/`,
         `https://use.fontawesome.com/releases/v5.8.1/css/all.css`,
         `https://fonts.googleapis.com/css?family=Open+Sans|Raleway`,
         `https://unpkg.com/normalize.css@8.0.1/normalize.css`,
