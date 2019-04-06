@@ -1,4 +1,4 @@
-const version = `1.0.0`;
+const version = `1.1.0`;
 const repository = `https://shlokd.github.io/fylo-landing-page`;
 
 self.addEventListener(`install`, ev => {
