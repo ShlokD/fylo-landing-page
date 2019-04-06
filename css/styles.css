@@ -97,3 +97,24 @@ button {
 .contact {
   background-color: var(--footer-bg);
 }
+
+.contact * {
+  background-color: var(--footer-bg);
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero-img, .productivity-img {
+    width: 66%;
+  }
+
+  .testimonials > .testimonial-card:first-child::before {
+    content: '';
+    background-image: url("images/bg-quotes.png");
+    display: none;
+    height: 22px;
+    width: 18px;
+    background-size: contain;
+    background-repeat: no-repeat
+  }
+}

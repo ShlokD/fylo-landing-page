@@ -25,3 +25,17 @@
 .items-center {
   align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+  .flex-row-ns {
+    flex-direction: row;
+  }
+
+  .justify-between-ns {
+    justify-content: space-between;
+  }
+
+  .justify-around-ns {
+    justify-content: space-around;
+  }
+}
